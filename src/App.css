@@ -40,3 +40,40 @@
 .read-the-docs {
   color: #888;
 }
+.Form-main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: auto;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.Form-main input{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Form-main button{
+  margin: 10px;
+}
+.btn-container{
+      display: flex;
+    justify-content: space-between;
+}
+.label{
+  text-align: start;
+  font-weight: bold;
+}
+.select-box{
+  height: 40px;
+}
+.summary{
+  display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.summary button{
+  width: 100px;
+}
